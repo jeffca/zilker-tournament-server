@@ -197,7 +197,8 @@ const resolvers = {
 
     return { tournamentId: tournament._id };
   },
-
+    
+  //monkaS kick a player o_O
   kickPlayer: async (
     _: void,
     { tournamentId, userId }: KickPlayerArgs
